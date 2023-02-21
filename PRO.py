@@ -29,7 +29,7 @@ except:
         kok=open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'w');kok.write(myid);kok.close()
 uid = os.getuid()
 key1 = open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'r').read()
-kex=(f"PICCHI{uid}TS{key1}PX110E==")
+kex=(f"AKING-XD{uid}TS{key1}PX110E==")
 key2 = base64.b64encode(str(f"{kex}").encode('utf-8'))
 key=(f"{key2}")
 fkeyx = key.replace("b'","").replace("'","")
